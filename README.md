@@ -113,8 +113,11 @@ Of of the Continuous Integration's techniques is called Blue-Green Deployment: i
 
 
 ### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
-#### Migration
-How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face? [Answers](http://some.com)
+#### Migration | [Answers](http://some.com)
+How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
+
+Or example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?
+
 #### Db and Null
 Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL? [Answers](http://some.com)
 #### ACID

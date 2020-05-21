@@ -118,6 +118,53 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * In web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the backend and in the frontend. What are they, and why are they advisable?
 
 
+### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
+* [COOK](http://www.eff.org) Why are first-party cookies and third-party cookies treated so differently?
+* [APIV](http://www.eff.org) How would you manage Web Services API versioning?
+* [SPA](http://www.eff.org) From a backend perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
+* [STATELS](http://www.eff.org) Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when is statefulness bad?
+* [RESTSOAP](http://www.eff.org) REST and SOAP: when would you choose one, and when the other?
+* [MVC](http://www.eff.org) In web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the backend and in the frontend. What are they, and why are they advisable?
+
+
+### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
+* Why are first-party cookies and third-party cookies treated so differently? [COOK](http://www.eff.org)
+* How would you manage Web Services API versioning? [APIV](http://www.eff.org)
+* From a backend perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications? [SPA](http://www.eff.org)
+* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when is statefulness bad? [STATELS](http://www.eff.org)
+* REST and SOAP: when would you choose one, and when the other? [RESTSOAP](http://www.eff.org)
+* In web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the backend and in the frontend. What are they, and why are they advisable? [MVC](http://www.eff.org)
+
+### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
+<dl>
+    <dt>[COOK](http://www.eff.org)</dt>
+    <dd>Why are first-party cookies and third-party cookies treated so differently?</dd>
+    <dt>Coffee</dt>
+    <dd>A drink made from roasted coffee beans.</dd>
+</dl>
+
+### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
+<p>
+[COOK](http://www.eff.org) Why are first-party cookies and third-party cookies treated so differently?
+</p>
+<p>
+How would you manage Web Services API versioning?
+</p>
+<p>
+From a backend perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
+</p>
+<p>
+Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when is statefulness bad?
+</p>
+<p>
+REST and SOAP: when would you choose one, and when the other?
+</p>
+<p>
+In web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the backend and in the frontend. What are they, and why are they advisable?
+</p>
+
+
+
 ### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face? [Answer](#how-would-you-migrate-an-application-from-a-database-to-another-for-example-from-mysql-to-postgresql-if-you-had-to-manage-that-project-which-issues-would-you-expect-to-face)

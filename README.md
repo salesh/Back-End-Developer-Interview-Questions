@@ -279,6 +279,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 #### Globals Are Evil
 Why are global and static objects evil? Can you show it with a code example? <br/>
+[Resources](design-patterns/globals-are-evil.md)
 [Answer](#why-are-global-and-static-objects-evil-can-you-show-it-with-a-code-example)
 
 #### Inversion of Control
@@ -1142,34 +1143,6 @@ If you could travel back in time, which advice would you give to your younger se
 
 
 ---
-
-### Why are global and static objects evil? Can you show it with a code example?
-
-1. Global and static objects causes implicit dependencies/coupling, thus breaks the idea of encapsulation.
-2. It's hard to reason about them - logical scope for understanding behaviour of these objects is expanded to the whole program.
-3. It's Hard to mock/stub them.
-4. Global objects pollutes the main scope.
-
-Bad:
-```javascript
-class Player {
-    walk() {
-        this.x = nextDestination.x;
-        this.y = nextDestination.y;
-    }
-}
-```
-
-Good:
-```javascript
-class Player {
-    walk(destination) {
-        this.x = destination.x;
-        this.y = destination.y;
-    }
-}
-```
-<br>[⬆ Back to top](#table-of-contents)
 
 ### Tell me about Inversion of Control and how it improves the design of code.
 

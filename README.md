@@ -714,6 +714,7 @@ The so called "multitier architecture" is an approach to design a client–serve
 
 #### Scalability
 How would you design a software system for scalability?
+[How to make a scalable web application](https://justcoded.com/blog/how-to-make-a-successful-scalable-web-application/)
 
 #### C10K
 Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?

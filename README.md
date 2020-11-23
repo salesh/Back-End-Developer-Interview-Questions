@@ -27,119 +27,119 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * [Questions about Design Patterns](#patterns)
   * [Globals Are Evil](#globals-are-evil) ✔️
-  * [Inversion of Control](#inversion-of-control)
+  * [Inversion of Control](#inversion-of-control) ❗❗
   * [Law of Demeter](#law-of-demeter)
-  * [Active-Record](#active-record)
+  * [Active-Record](#active-record) ❗
   * [Data-Mapper](#data-mapper)
   * [Billion-Dollar Mistake](#billion-dollar-mistake)
-  * [Inheritance vs Composition](#inheritance-vs-composition)
+  * [Inheritance vs Composition](#inheritance-vs-composition) ❗❗
   * [Anti-Corruption Layer](#anti-corruption-layer)
-  * [Singleton](#singleton)
-  * [Data Abstraction](#data-abstraction)
-  * [Don't Repeat Yourself](#don-t-repeat-yourself)
-  * [Dependency Hell](#depencendy-hell)
+  * [Singleton](#singleton) ❗❗
+  * [Data Abstraction](#data-abstraction) ❗
+  * [Don't Repeat Yourself](#don-t-repeat-yourself) ❗
+  * [Dependency Hell](#depencendy-hell) ❗❗
   * [Goto Is Evil](#goto-is-evil)
   * [Robustness Principle](#robustness-principle)
-  * [Separation of Concerns](separation-of-concerne)
+  * [Separation of Concerns](separation-of-concerne) ❗
 
 * [Questions about Code Design](#design)
-  * [High Cohesion, Loose Coupling](#high-cohesion-loose-coupling)
-  * [Index 0](#index-0)
-  * [TDD](#tdd)
+  * [High Cohesion, Loose Coupling](#high-cohesion-loose-coupling) ❗
+  * [Index 0](#index-0) ❗❗
+  * [TDD](#tdd) ❗
   * [DRY Violation](#dry-violation)
-  * [Cohesion vs Coupling](#cohesion-vs-coupling)
+  * [Cohesion vs Coupling](#cohesion-vs-coupling) ❗
   * [Refactoring](#refactoring)
   * [Code Comments](#code-comments)
-  * [Design vs Architecture](#design-vs-architecture)
-  * [Early Testing](#early-testing)
-  * [Multiple Inheritance](#multiple-inheritance)
+  * [Design vs Architecture](#design-vs-architecture) ❗
+  * [Early Testing](#early-testing) 
+  * [Multiple Inheritance](#multiple-inheritance) ❗
   * [Domain Logic in Stored Procedures](#domain-logic-in-stored-procedures)
-  * [OOP Took Over the World](#oop-took-over-the-world)
+  * [OOP Took Over the World](#oop-took-over-the-world) ❗❗
   * [Bad Design](#bad-design)
 
 * [Questions about languages](#languages)
   * [3 Worst Defects](#3-worst-defects)
   * [Functional Programming](#functional-programming)
-  * [Closures](#closures)
+  * [Closures](#closures) ❗
   * [Generics](#generics)
-  * [High-Order Functions](#high-order-functions)
+  * [High-Order Functions](#high-order-functions) ❗
   * [Loops and Recursion](#loops-and-recursion)
-  * [Functions as First-Class Citizens](#functions-as-first-class-citizens)
-  * [Anonymous Functions](#anonymous-functions)
+  * [Functions as First-Class Citizens](#functions-as-first-class-citizens) ❗
+  * [Anonymous Functions](#anonymous-functions) ❗
   * [Static and Dynamic Typing](#static-and-dynamic-typing)
   * [Namespaces](#namespaces)
   * [Language Interoperability](#language-interoperability)
-  * [Hate of Java](#hate-of-java)
+  * [Hate of Java](#hate-of-java) ❗
   * [Good and Bad Languages](#good-and-bad-languages)
   * [Referential Transparency](#referencial-transparency)
-  * [Stack and Heap](#stack-and-heap)
+  * [Stack and Heap](#stack-and-heap) ❗❗
   * [Functions as First Class Citizens](#functions-as-first-class-citizens)
   * [Pattern Matching](#pattern-matching)
   * [Exceptions](#exceptions)
   * [Variant and Contravariant Inheritance](#variant-and-contravariant-inheritance)
-  * [Constructors and Interfaces](#constructors-and-interfaces)
-  * [Node.js](#node-js)
+  * [Constructors and Interfaces](#constructors-and-interfaces) ❗
+  * [Node.js](#node-js) ❗
   * [Java and Time Traveling](#java-and-time-traveling)
 
 * [Web Questions](#web)
   * [3rd Party Cookies](#3rd-party-cookies)
-  * [API Versioning](#api-versioning)
+  * [API Versioning](#api-versioning) ❗
   * [SPAs](#spas)
   * [Statelessness](#statelessness)
-  * [REST vs SOAP](#rest-vs-soap)
-  * [MVC and MVVM](#mvc-and-mvvm)
+  * [REST vs SOAP](#rest-vs-soap) ❗❗
+  * [MVC and MVVM](#mvc-and-mvvm) ❗❗
 
 * [Databases Questions](#databases)
-  * [DB Migrations](#db-migrations)
-  * [NULL is special](#null-is-special)
-  * [ACID](#acid)
+  * [DB Migrations](#db-migrations) ❗
+  * [NULL is special](#null-is-special) ❗
+  * [ACID](#acid) ❗
   * [Schema Migrations](#schema-migrations)
   * [Lazy Loading](#lazy-loading)
   * [N+1 Problem](#n1-problem)
   * [Slowest Queries](#slowest-queries)
-  * [Normalization](#normalization)
+  * [Normalization](#normalization) ❗
   * [Blue/Green Deployment](#bluegreen-deployment)
 
 * [NoSQL Questions](#nosql)
-  * [Eventual Consistency](#eventual-consistency)
-  * [CAP Theorem](#cap-theorem)
+  * [Eventual Consistency](#eventual-consistency) ❗
+  * [CAP Theorem](#cap-theorem) ❗
   * [NoSql](#nosql)
   * [NoSQL and Scalability](#nosql-and-scalability)
   * [Documant and Relational DBs](#document-and-relational-dbs)
 
 * [Code Versioning Questions](#codeversioning)
-  * [Branching in HG and in Git](#branching-in-hg-and-in-git)
+  * [Branching in HG and in Git](#branching-in-hg-and-in-git) ❗
   * [DVCS](dvcs)
   * [GitFlow and GitHubFlow](#gitflow-and-githubflow)
   * [Rebase](#rebase)
   * [Merging in HG and in Git](#merging-in-hg-and-in-git)
 
 * [Concurrency Questions](#concurrency)
-  * [Why?](#why)
+  * [Why?](#why) ❗
   * [Testing Concurrency](#testing-concurrency)
-  * [Race Conditions](#race-conditions)
+  * [Race Conditions](#race-conditions) ❗
   * [Deadlocks](#deadlocks)
-  * [Process Starvation](#process-starvation)
+  * [Process Starvation](#process-starvation) ❗
   * [Free Algorithm](#free-algorithm)
 
 * [Questions about Distributed Systems](#distributed)
-  * [Testing Distributed Systems](#testing-distributed-systems)
-  * [Async Communication](#async-communication)
-  * [Pitfalls of RPC](#pitfalls-of-rpc)
-  * [Design of Distributed Systems](#design-of-distributed-systems)
+  * [Testing Distributed Systems](#testing-distributed-systems) ❗
+  * [Async Communication](#async-communication) ❗
+  * [Pitfalls of RPC](#pitfalls-of-rpc) ❗
+  * [Design of Distributed Systems](#design-of-distributed-systems) ❗
   * [Fault Tolerance](#fault-tolerance)
   * [Failures](#failures)
   * [Network Partitions](#network-partitions)
   * [Fallacies of Distributed Computing](#fallacies-of-distibuted-computing)
-  * [Request/Reply vs Publish/Subscribe](#requestreply-vs-publishsubscribe)
+  * [Request/Reply vs Publish/Subscribe](#requestreply-vs-publishsubscribe) ❗
   * [Implement Transactions](#implement-transactions)
 
 * [Questions about Software Lifecycle and Team Management](#management)
-  * [Agility](#agility)
+  * [Agility](#agility) ❗
   * [Legacy Code](#legacy-code)
   * [Legacy Code ELI5](#legacy-code-eli5)
-  * [Sell me Kanban](#sell-me-kanban)
-  * [Agile vs Waterfall](#agile-vs-waterfall)
+  * [Sell me Kanban](#sell-me-kanban) ❗
+  * [Agile vs Waterfall](#agile-vs-waterfall) ❗
   * [Death by Meetings](#death-by-meetings)
   * [Late Projects](#late-projects)
   * [Agile Manifesto](#agile-manifesto)
@@ -152,47 +152,47 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [1 Month's Revolution](#1-months-revolution)
 
 * [Questions about logic and algorithms](#algorithms)
-  * [FIFO with LIFO](#fifo-with-lifo)
-  * [Stack Overflow](#stack-overflow)
+  * [FIFO with LIFO](#fifo-with-lifo) ❗❗
+  * [Stack Overflow](#stack-overflow) ❗
   * [Tail Recursive n!](#tail-recursive-n)
-  * [REPL](#repl)
+  * [REPL](#repl) ❗
   * [Defragger](#defragger)
   * [Mazes](#mazes)
   * [Memory Leaks](#memory-leaks)
   * [PRNG](#prng)
-  * [Garbage Collecting](#garbage-collecting)
-  * [Queues](#queues)
+  * [Garbage Collecting](#garbage-collecting) ❗
+  * [Queues](#queues) ❗
   * [Simple Web Server](#simple-web-server)
   * [Sorting Huge Files](#sorting-huge-files)
   * [Duplicates](#duplicates)
 
 * [Questions about Software Architecture](#architecture)
-  * [No Cache](#no-cache)
-  * [Event-Driven Architecture](#event-driven-architecture)
+  * [No Cache](#no-cache) ❗
+  * [Event-Driven Architecture](#event-driven-architecture) ❗
   * [Readibility](#readibility)
   * [Emergent and Evolutionary](#emergent-and-evolutionary)
-  * [ Scale-Out, Scale-Up](#scale-out-scale-up)
+  * [ Scale-Out, Scale-Up](#scale-out-scale-up) ❗
   * [Failures User Sessions](#failures-user-sessions)
-  * [CQRS](#cqrs)
+  * [CQRS](#cqrs) ❗
   * [n-tier](#n-tier)
-  * [Scalability](#scalability)
+  * [Scalability](#scalability) ❗❗
   * [C10K](#c10k)
   * [P2P](#p2p)
   * [CGI](#cgi)
   * [Vendor Lock-in](#vendor-lock-in)
-  * [Pub/Sub](#pubsub)
+  * [Pub/Sub](#pubsub) ❗❗
   * [CPUs](#cpus)
   * [Performance](#performance)
   * [DDOS](#ddos)
-  * [Performance and Scalability](#performance-and-scalability)
-  * [Tight Coupling](#tight-coupling)
+  * [Performance and Scalability](#performance-and-scalability) ❗ 
+  * [Tight Coupling](#tight-coupling) ❗
   * [Cloud Readiness](#cloud-readiness)
   * [Emergent Architecture](#emergent-architecture)
   * [Design, Architecture, Functionality, Aesthetic](#design-architecture-functionality-aesthetic)
 
 * [Questions about Service Oriented Architecture and Microservices](#soa)
   * [Long-lived Transactions](#long-lived-transactions)
-  * [SOA and Micro Services](#soa-and-micro-services)
+  * [SOA and Micro Services](#soa-and-micro-services) ❗
   * [Versioning and Breaking Changes](#versioning-and-breaking-changes)
   * [Sagas and compensations](#sagas-and-compensations)
   * [Too Micro](#too-micro "Too Micro")
@@ -211,18 +211,18 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Stealing Sessions](#stealing-sessions)
 
 * [General Questions](#general)
-  * [Why FP?](#why-fp)
-  * [Browsers](#browsers)
+  * [Why FP?](#why-fp) ❗
+  * [Browsers](#browsers) ❗
   * [TCP Sockets](#tcp-sockets)
-  * [Encapsulation](#encapsulation)
-  * [Real-time systems](#real-time-systems)
-  * [Real-time and memory allocation](#real-time-and-memory-allocation)
-  * [Immutability](#immutability)
-  * [Mutable vs Immutable](#mutable-vs-immutable)
+  * [Encapsulation](#encapsulation) ❗❗
+  * [Real-time systems](#real-time-systems) ❗
+  * [Real-time and memory allocation](#real-time-and-memory-allocation) ❗
+  * [Immutability](#immutability) ❗❗
+  * [Mutable vs Immutable](#mutable-vs-immutable) ❗❗
   * [Object-Relational Impedance Mismatch](#object-relational-impedance-mismatch)
-  * [Sizing a Cache](#sizing-a-cache)
-  * [TCP and HTTP](#tcp-and-http)
-  * [Client-Side vs Server-Side](#client-side-vs-server-side)
+  * [Sizing a Cache](#sizing-a-cache) ❗
+  * [TCP and HTTP](#tcp-and-http) ❗
+  * [Client-Side vs Server-Side](#client-side-vs-server-side) ❗
   * [Reliable and non-reliable channels](#reliable-and-non-reliable-channels)
   * [Million-Dollar Mistake](#million-dollar-mistake)
 
@@ -232,7 +232,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Innovation and Predictability](#innovation-and-predictability)
   * [Good Code](#good-code)
   * [Stradming](#stradming)
-  * [1 Week Improvement](#1-week-improvement)
+  * [1 Week Improvement](#1-week-improvement) ❗
   * [Learnt this week](#learnt-this-week)
   * [Aestheric](#aestheric)
   * [Last 5 books](#last-5-books)

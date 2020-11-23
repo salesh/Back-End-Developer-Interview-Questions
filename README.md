@@ -26,7 +26,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ## <a name='toc'>Table of Contents</a>
 
 * [Questions about Design Patterns](#patterns)
-  * [Globals Are Evil](#globals-are-evil)
+  * [Globals Are Evil](#globals-are-evil) ✔️
   * [Inversion of Control](#inversion-of-control)
   * [Law of Demeter](#law-of-demeter)
   * [Active-Record](#active-record)
